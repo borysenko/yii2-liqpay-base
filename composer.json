@@ -1,0 +1,26 @@
+{
+  "name": "borysenko/yii2-liqpay-base",
+  "description": "The toolkit of integration LiqPay service in your project for Yii2",
+  "keywords": [
+    "liqpay",
+    "e-commerce",
+    "yii2"
+  ],
+  "homepage": "https://github.com/borysenko/yii2-liqpay-base",
+  "support": {
+    "source": "https://github.com/borysenko/yii2-liqpay-base"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "borysenko\\liqpayBase\\": "",
+      "borysenko\\liqpayBase\\actions\\": "actions",
+      "borysenko\\liqpayBase\\forms\\": "forms",
+      "borysenko\\liqpayBase\\widgets\\": "widgets"
+    }
+  }
+}
